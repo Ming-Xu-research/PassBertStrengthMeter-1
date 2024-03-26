@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PROJECT_BASE=/disk/yjt/Prepassword
+PROJECT_BASE=/disk/Prepassword
 CODE_BASE=${PROJECT_BASE}/src
-SAVE_CKPT=/disk/yjt/Prepassword/model/demo/demo.ckpt
+SAVE_CKPT=/disk/model/demo/demo.ckpt
 TFRD_FILE=${PROJECT_BASE}/tfrecords/demo.tfrecord
 CONFIG_FILE=${PROJECT_BASE}/config/bert_config.json
 LOG_FILE=${PROJECT_BASE}/result/log/log.txt
